@@ -1,4 +1,3 @@
-alert(1);
 $(document).ready(function() {
 
   $("form#quiz").submit(function(event) {
@@ -19,26 +18,31 @@ $(document).ready(function() {
         $('#holbox').show();
         $('#morocco').hide();
         $('#barcelona').hide();
+        $('#quiz').hide();
       }
       if (food === 'african' && activity === 'desert' && outin === 'either') {
         $('#morocco').show();
         $('#holbox').hide();
         $('#barcelona').hide();
+        $('#quiz').hide();
       }
       if (food === 'spanish' && activity === 'museum' && outin === 'in') {
         $('#barcelona').show();
         $('#holbox').hide();
         $('#morocco').hide();
+        $('#quiz').hide();
       }
       if (food === 'spanish' && activity === 'beach' && outin === 'out' && comfort === 'some') {
         $('#morocco').show();
         $('#holbox').hide();
         $('#barcelona').hide();
+        $('#quiz').hide();
       }
       if (food === 'mexican' && activity === 'museum' && outin === 'either' && group === 'partner') {
         $('#barcelona').show();
         $('#holbox').hide();
         $('#morocco').hide();
+        $('#quiz').hide();
       }
 
   });
