@@ -66,7 +66,7 @@ $(document).ready(function() {
         $('#quiz').hide();
       }
 
-      if (food === 'african' && activity === 'desert' && outin === 'eihter' && group === 'people' && comfort === 'some') {
+      if (food === 'african' && activity === 'desert' && outin === 'either' && group === 'people' && comfort === 'some') {
         $('#morocco').show();
         $('#barcelona').hide();
         $('#holbox').hide();
@@ -78,12 +78,7 @@ $(document).ready(function() {
         $('#morocco').hide();
         $('#holbox').hide();
         $('#quiz').hide();
-      } else {
-        $('#holbox').show();
-        $('#barcelona').hide();
-        $('#morocco').hide();
-        $('#quiz').hide();
-      }
+      } 
 
   });
 });
